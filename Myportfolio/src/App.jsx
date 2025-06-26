@@ -11,7 +11,7 @@ function App() {
     <route path="*" element={<NotFound />} />
 
   </Routes>
-  </BrowserRouter>
+  </BrowserRouter> 
   </>
 
   );
