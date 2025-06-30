@@ -90,6 +90,14 @@
     --border: 217 33% 20%;
   }
 
+  * padding {
+      @apply border-border;
+  }
+
+  html {
+    @apply border-border;
+  }
+
 }
 
 @utility container{
@@ -141,6 +149,6 @@
 }
 @utility metero {
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
-  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.3);
 
 }
